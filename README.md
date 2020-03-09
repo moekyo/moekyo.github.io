@@ -6,9 +6,9 @@
 
 ```mermaid
 graph TD;
-	SZCASecSDK-->SZCASynergySDK;
-	SZCASynergySDK-->PackData;
-	PackData-->ss-sec-core-openssl;
-	PackData-->ss-cert-storage;
-	PackData-->mobile-license-module;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
+
